@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TodoApp</string>
+    <string name="login_image">Login image</string>
+    <string name="welcome_to_testing_course">Welcome to Testing course</string>
+    <string name="login_to_your_account">Login to your account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="add">Add</string>
+    <string name="no_items_yet">No items yet</string>
+    <string name="delete">Delete</string>
+    <string name="invalid_email_address">Invalid email address</string>
+    <string name="password_cannot_be_empty">Password cannot be empty</string>
+    <string name="invalid_credentials">Invalid credentials</string>
+</resources>
