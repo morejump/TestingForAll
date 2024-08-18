@@ -1,7 +1,7 @@
 package thao.luu.van.todoapp
 
 import assertk.assertThat
-import assertk.assertions.isLessThan
+import assertk.assertions.isEqualTo
 import org.junit.jupiter.api.Test
 
 
@@ -13,6 +13,6 @@ import org.junit.jupiter.api.Test
 class ExampleUnitTest {
     @Test
     fun addition_isCorrect() {
-        assertThat(4).isLessThan(2 + 2)
+        assertThat(4).isEqualTo(2 + 2)
     }
 }

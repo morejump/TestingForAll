@@ -1,5 +1,6 @@
 package thao.luu.van.todoapp.extesion
 
 fun String.isValidEmail(): Boolean {
-    return android.util.Patterns.EMAIL_ADDRESS.matcher(this).matches()
+    val emailRegex = "^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$".toRegex()
+    return this.matches(emailRegex)
 }
